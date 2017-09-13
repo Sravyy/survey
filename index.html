@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "js/scripts.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+      <form id="form">
+        <div class="form-group">
+          <h2>What is your favorite food?</h2>
+          <select class="form-control" id="food">
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h2>What is your favorite ice cream flavor?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate">
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla" checked>
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookies and cream">
+              Cookies and Cream
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <h2>What is your birth date?</h2>
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+        <div class="form-group">
+          <h2>What is your favorite color?</h2>
+          <!-- <label for="color"></label> -->
+          <input id="color" class="form-control" type="color">
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+
+      <div class="output1">
+
+      </div>
+      <div class="output2">
+
+      </div>
+      <div class="output3">
+
+      </div>
+      <div class="output4">
+
+      </div>
+    </div>
+
+  </body>
+</html>
